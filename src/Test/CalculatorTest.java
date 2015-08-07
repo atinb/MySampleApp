@@ -1,4 +1,4 @@
-package CalcTest;
+package Test;
 
 import Calculator.Calc;
 import org.junit.Test;
