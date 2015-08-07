@@ -8,6 +8,11 @@
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>E:\Runners\JUnit\eclipse\Workspace\MySampleApp\src\CalcTest</testSourceDirectory>
+    <testResources>
+      <testResource>
+        <directory>E:\Runners\JUnit\eclipse\Workspace\MySampleApp\src\CalcTest</directory>
+      </testResource>
+    </testResources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -23,9 +28,8 @@
   <dependencies>
   	<dependency>
   		<groupId>junit</groupId>
-  		<artifactId>junit</artifactId>
-  		<version>4.11</version>
-  		<scope>verify</scope>		
+  		<artifactId>junit-dep</artifactId>
+  		<version>4.11</version>		
   	</dependency>
   </dependencies>
 </project>
