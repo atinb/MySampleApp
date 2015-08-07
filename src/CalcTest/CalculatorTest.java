@@ -1,6 +1,5 @@
 package CalcTest;
 
-import static org.junit.Assert.*;
 import Calculator.Calc;
 import org.junit.Test;
 
