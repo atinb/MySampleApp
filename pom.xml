@@ -6,7 +6,6 @@
   <name>MySampleApp</name>
   <description>Calculator app for beginners</description>
   <build>
-    <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
