@@ -10,7 +10,7 @@ public class CalculatorTest {
 	public void testadd() {
 		Calc c = new Calc();
 		int i = c.add(2,2);
-		assert(i == 2);
+		assert(i == 4);
 	}
 	@Test
 	public void testsubtract() {
