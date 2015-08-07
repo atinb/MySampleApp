@@ -7,12 +7,6 @@
   <description>Calculator app for beginners</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>E:\Runners\JUnit\eclipse\Workspace\MySampleApp\src\Test</testSourceDirectory>
-    <testResources>
-      <testResource>
-        <directory>E:\Runners\JUnit\eclipse\Workspace\MySampleApp\src\Test</directory>
-      </testResource>
-    </testResources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
