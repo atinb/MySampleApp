@@ -55,6 +55,19 @@ public class CalculatorTest {
 		int i = c.bitxor(2,2);
 		assert(i == 2);
 	}
+	@Test
+	public void testshiftleft() {
+		Calc c = new Calc();
+		int i = c.shiftleft(2,2);
+		assert(i == 8);
+	}
+	@Test
+	public void testshiftright() {
+		Calc c = new Calc();
+		int i = c.shiftright(4,2);
+		assert(i == 1);
+	}
+	
 }
 
 
