@@ -37,11 +37,6 @@ public class Calc {
 		return (a|b);
 	}
 	
-	public int bitnot(int a , int b){
-
-		return (a~b);
-	}
-	
 	public int shiftleft(int a , int b){
 
 		return (a<<b);
