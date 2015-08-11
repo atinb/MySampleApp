@@ -39,7 +39,22 @@ public class Calc {
 	
 	public int bitnot(int a , int b){
 
-		return (a!b);
+		return (a~b);
+	}
+	
+	public int shiftleft(int a , int b){
+
+		return (a<<b);
+	}
+	
+		public int shiftright(int a , int b){
+
+		return (a>>b);
+	}
+	
+		public int bitxor(int a , int b){
+
+		return (a^b);
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
