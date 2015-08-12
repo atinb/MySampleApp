@@ -11,6 +11,7 @@ public class CalculatorTest {
 		int i = c.add(2,2);
 		assert(i == 4);
 	}
+	
 	@Test
 	public void testsubtract() {
 		Calc c = new Calc();
