@@ -67,11 +67,41 @@ public class CalculatorTest {
 		assert(i == 8);
 	}
 	@Test
-	public void testshiftright() {
+	public void testincrement() {
 		Calc c = new Calc();
-		int i = c.shiftright(4,2);
+		int i = c.increment(-1);
+		assert(i == 0);
+	}
+	
+	@Test
+	public void testdecrement() {
+		Calc c = new Calc();
+		int i = c.decrement(1);
+		assert(i == 0);
+	}
+	
+	@Test
+	public void testunaryminus() {
+		Calc c = new Calc();
+		int i = c.unaryminus(-2);
 		assert(i == 1);
 	}
+	
+//	@Test
+//	public void testunaryplus() {
+//		Calc c = new Calc();
+//		int i = c.unaryplus(4);
+//		assert(i == 4);
+//	}
+//	
+//	@Test
+//	public void testshiftright() {
+//		Calc c = new Calc();
+//		int i = c.shiftright(4,2);
+//		assert(i == 1);
+//	}
+//	
+	
 	
 }
 
