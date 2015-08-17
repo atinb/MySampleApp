@@ -51,6 +51,32 @@ public class Calc {
 
 		return (a^b);
 	}
+		
+		public int increment(int a){
+
+			return (a++);
+		}
+		
+		public int decrement(int a){
+
+			return (a--);
+		}
+		
+		public int unaryminus(int a){
+
+			return (-a);
+		}
+		
+		public int unaryplus(int a){
+
+			return (+a);
+		}
+		
+		public boolean unarynot(boolean a){
+
+			return (!a);
+		}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
