@@ -1,6 +1,9 @@
 package Test;
 
+import java.io.Console;
+
 import Calculator.Calc;
+
 import org.junit.Test;
 
 public class CalculatorTest {
@@ -9,7 +12,8 @@ public class CalculatorTest {
 	public void testadd() {
 		Calc c = new Calc();
 		int i = c.add(2,2);
-		assert(i == 4);
+		assert(i == 3);
+		System.out.println("There is an error in the addition method. Please check the hack the developer added");
 	}
 	
 	@Test
