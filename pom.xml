@@ -38,8 +38,7 @@
             <id>package-9af52907-6506-4b87-b16a-9883edee41bc</id>
             <goals>
               <goal>cobertura</goal>
-            </goals>
-            <phase>package</phase>
+            </goals>                      
           </execution>
         </executions>
       </plugin>
