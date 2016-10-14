@@ -34,15 +34,13 @@
           <aggregate>false</aggregate>
         </configuration>
         <executions>
-          <execution>
-            <id>package-9af52907-6506-4b87-b16a-9883edee41bc</id>
+          <execution>            
             <goals>
-              <goal>cobertura</goal>
+              <goal>test</goal>
             </goals>                      
           </execution>
         </executions>
       </plugin>
-
       </plugins>
   </build>
   <dependencies>
